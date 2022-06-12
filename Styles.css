@@ -1,0 +1,50 @@
+*{
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+}
+body{
+    background-color: black
+}
+.container{
+    width: 1000px;
+    height: 600px;
+    background-image: url(crypto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn{
+    margin-left: 150px;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: white;
+    color: burlywood;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+#getPrice, #getPrice2, #getPrice3{
+    font-size: 20px;
+    font-weight: 800
+}
+@media screen and (max-width: 600px){
+    [class*="col-"] {
+  width: 100%;
+    }
+    p{
+        font-size: 100%
+    }
+    h1{
+        font-size: 200%;
+    }
+    .container{
+        width: 90%
+    }
+    .col{
+        margin-top: 50px
+    }
+}
